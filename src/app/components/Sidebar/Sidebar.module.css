@@ -1,0 +1,34 @@
+.sidebar {
+    height: calc(100vh - 56px);
+    width: 96px;
+    background-color: #ffda0a;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sideBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.btnText {
+    font-weight: 500;
+    font-size: medium;
+    font-family: 'Roboto';
+}
+
+.btnIcon {
+    font-size: 3rem;
+    color: #000;
+}

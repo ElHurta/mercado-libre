@@ -1,0 +1,10 @@
+.dashboardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #fff;
+}

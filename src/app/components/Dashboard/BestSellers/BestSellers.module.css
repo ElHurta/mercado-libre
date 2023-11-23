@@ -1,0 +1,33 @@
+.bestSellsContainer{
+    font-family: 'Roboto';
+}
+
+.bestSellsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.bestSellsList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+
+    max-height: 280px;
+    height: 100%;
+    overflow-y: auto;
+
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+
+    background: #E4E4E4;
+}
+
+.headerTitle {
+    margin: 0;
+    font-weight: 600;
+    color: #000000;
+}
